@@ -10,7 +10,7 @@ public class Persona {
         this.mostrarNombre();
     }
 
-    public void mostrarNombre() {
+    private void mostrarNombre() {
         System.out.println("Nombre: " + nombre);
     }
 }
